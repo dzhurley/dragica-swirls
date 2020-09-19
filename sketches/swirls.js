@@ -46,7 +46,7 @@ class Swirl {
     this.travel = range(0.5, 1.5);
     this.wobble = range(2, 5);
 
-    this.strokeFrame = 16;
+    this.strokeFrame = this.frequency;
     this.strokeWidthStart = range(100, 150);
     this.strokeWidthEnd = range(60, 90);
 
